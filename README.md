@@ -26,4 +26,15 @@ We would like to thank the following people for their contributions to the sourc
 * Eduardo Pelegri-Llopart and Darryl Gough for contributing the Blackberry Native SDK port for the OpenGL ES 2.0 Programming Guide (we have not yet ported the ES 3.0 book to a Blackberry platform)
 
 
+## Build ##
 
+1. X11 enviromnment
+$ make -h. -bdbuild -degl_target=x11
+$ cd dbuild
+$ make
+
+
+2. wayland enviromnment
+$ make -h. -bdbuild -degl_target=wayland
+$ cd dbuild
+$ make

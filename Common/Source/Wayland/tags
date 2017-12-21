@@ -1,0 +1,38 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Display	/home/elongbug/work_space/opengles/opengles3-book/Common/Source/Wayland/esUtil_Wayland.c	/^struct Display {$/;"	s	file:
+Display::compositor	/home/elongbug/work_space/opengles/opengles3-book/Common/Source/Wayland/esUtil_Wayland.c	/^   struct wl_compositor *compositor;$/;"	m	struct:Display	typeref:struct:Display::wl_compositor	file:	access:public
+Display::display	/home/elongbug/work_space/opengles/opengles3-book/Common/Source/Wayland/esUtil_Wayland.c	/^   struct wl_display *display;$/;"	m	struct:Display	typeref:struct:Display::wl_display	file:	access:public
+Display::registry	/home/elongbug/work_space/opengles/opengles3-book/Common/Source/Wayland/esUtil_Wayland.c	/^   struct wl_registry *registry;$/;"	m	struct:Display	typeref:struct:Display::wl_registry	file:	access:public
+Display::shell	/home/elongbug/work_space/opengles/opengles3-book/Common/Source/Wayland/esUtil_Wayland.c	/^   struct wl_shell *shell;$/;"	m	struct:Display	typeref:struct:Display::wl_shell	file:	access:public
+WinCreate	/home/elongbug/work_space/opengles/opengles3-book/Common/Source/Wayland/esUtil_Wayland.c	/^EGLBoolean WinCreate(ESContext *esContext, const char *title)$/;"	f	signature:(ESContext *esContext, const char *title)
+WinLoop	/home/elongbug/work_space/opengles/opengles3-book/Common/Source/Wayland/esUtil_Wayland.c	/^void WinLoop ( ESContext *esContext )$/;"	f	signature:( ESContext *esContext )
+Window	/home/elongbug/work_space/opengles/opengles3-book/Common/Source/Wayland/esUtil_Wayland.c	/^struct Window {$/;"	s	file:
+Window::display	/home/elongbug/work_space/opengles/opengles3-book/Common/Source/Wayland/esUtil_Wayland.c	/^   struct Display *display;$/;"	m	struct:Window	typeref:struct:Window::Display	file:	access:public
+Window::native	/home/elongbug/work_space/opengles/opengles3-book/Common/Source/Wayland/esUtil_Wayland.c	/^   struct wl_egl_window *native;$/;"	m	struct:Window	typeref:struct:Window::wl_egl_window	file:	access:public
+Window::shell_surface	/home/elongbug/work_space/opengles/opengles3-book/Common/Source/Wayland/esUtil_Wayland.c	/^   struct wl_shell_surface *shell_surface;$/;"	m	struct:Window	typeref:struct:Window::wl_shell_surface	file:	access:public
+Window::surface	/home/elongbug/work_space/opengles/opengles3-book/Common/Source/Wayland/esUtil_Wayland.c	/^   struct wl_surface *surface;$/;"	m	struct:Window	typeref:struct:Window::wl_surface	file:	access:public
+compositor	/home/elongbug/work_space/opengles/opengles3-book/Common/Source/Wayland/esUtil_Wayland.c	/^   struct wl_compositor *compositor;$/;"	m	struct:Display	typeref:struct:Display::wl_compositor	file:	access:public
+display	/home/elongbug/work_space/opengles/opengles3-book/Common/Source/Wayland/esUtil_Wayland.c	/^   struct Display *display;$/;"	m	struct:Window	typeref:struct:Window::Display	file:	access:public
+display	/home/elongbug/work_space/opengles/opengles3-book/Common/Source/Wayland/esUtil_Wayland.c	/^   struct wl_display *display;$/;"	m	struct:Display	typeref:struct:Display::wl_display	file:	access:public
+esMain	/home/elongbug/work_space/opengles/opengles3-book/Common/Source/Wayland/esUtil_Wayland.c	/^extern int esMain( ESContext *esContext );$/;"	p	file:	signature:( ESContext *esContext )
+main	/home/elongbug/work_space/opengles/opengles3-book/Common/Source/Wayland/esUtil_Wayland.c	/^int main ( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+native	/home/elongbug/work_space/opengles/opengles3-book/Common/Source/Wayland/esUtil_Wayland.c	/^   struct wl_egl_window *native;$/;"	m	struct:Window	typeref:struct:Window::wl_egl_window	file:	access:public
+registry	/home/elongbug/work_space/opengles/opengles3-book/Common/Source/Wayland/esUtil_Wayland.c	/^   struct wl_registry *registry;$/;"	m	struct:Display	typeref:struct:Display::wl_registry	file:	access:public
+registry_handle_global	/home/elongbug/work_space/opengles/opengles3-book/Common/Source/Wayland/esUtil_Wayland.c	/^static void registry_handle_global(void *data, struct wl_registry *registry,$/;"	f	file:	signature:(void *data, struct wl_registry *registry, uint32_t name, const char *interface, uint32_t version)
+registry_handle_global_remove	/home/elongbug/work_space/opengles/opengles3-book/Common/Source/Wayland/esUtil_Wayland.c	/^static void registry_handle_global_remove(void *data, struct wl_registry *registry,$/;"	f	file:	signature:(void *data, struct wl_registry *registry, uint32_t name)
+registry_listener	/home/elongbug/work_space/opengles/opengles3-book/Common/Source/Wayland/esUtil_Wayland.c	/^static const struct wl_registry_listener registry_listener = {$/;"	v	typeref:struct:wl_registry_listener	file:
+shell	/home/elongbug/work_space/opengles/opengles3-book/Common/Source/Wayland/esUtil_Wayland.c	/^   struct wl_shell *shell;$/;"	m	struct:Display	typeref:struct:Display::wl_shell	file:	access:public
+shell_configure	/home/elongbug/work_space/opengles/opengles3-book/Common/Source/Wayland/esUtil_Wayland.c	/^static void shell_configure(void *data, struct wl_shell_surface *shell_surface,$/;"	f	file:	signature:(void *data, struct wl_shell_surface *shell_surface, uint32_t edges, int32_t width, int32_t height)
+shell_ping	/home/elongbug/work_space/opengles/opengles3-book/Common/Source/Wayland/esUtil_Wayland.c	/^static void shell_ping(void *data, struct wl_shell_surface *shell_surface, uint32_t serial)$/;"	f	file:	signature:(void *data, struct wl_shell_surface *shell_surface, uint32_t serial)
+shell_popup_done	/home/elongbug/work_space/opengles/opengles3-book/Common/Source/Wayland/esUtil_Wayland.c	/^static void shell_popup_done(void *data, struct wl_shell_surface *shell_surface)$/;"	f	file:	signature:(void *data, struct wl_shell_surface *shell_surface)
+shell_surface	/home/elongbug/work_space/opengles/opengles3-book/Common/Source/Wayland/esUtil_Wayland.c	/^   struct wl_shell_surface *shell_surface;$/;"	m	struct:Window	typeref:struct:Window::wl_shell_surface	file:	access:public
+shell_surface_listener	/home/elongbug/work_space/opengles/opengles3-book/Common/Source/Wayland/esUtil_Wayland.c	/^static const struct wl_shell_surface_listener shell_surface_listener = {$/;"	v	typeref:struct:wl_shell_surface_listener	file:
+surface	/home/elongbug/work_space/opengles/opengles3-book/Common/Source/Wayland/esUtil_Wayland.c	/^   struct wl_surface *surface;$/;"	m	struct:Window	typeref:struct:Window::wl_surface	file:	access:public
+userInterrupt	/home/elongbug/work_space/opengles/opengles3-book/Common/Source/Wayland/esUtil_Wayland.c	/^GLboolean userInterrupt(ESContext *esContext)$/;"	f	signature:(ESContext *esContext)
+wl_disp	/home/elongbug/work_space/opengles/opengles3-book/Common/Source/Wayland/esUtil_Wayland.c	/^static struct Display wl_disp = { 0 };$/;"	v	typeref:struct:Display	file:
+wl_win	/home/elongbug/work_space/opengles/opengles3-book/Common/Source/Wayland/esUtil_Wayland.c	/^static struct Window wl_win = { 0 };$/;"	v	typeref:struct:Window	file:
